@@ -14,7 +14,6 @@
     "editor.cursorSmoothCaretAnimation": "on",
 
     // Vim Keybinds
-    "vim.useSystemClipboard": true,
     "vim.leader": "space",
     "vim.cursorStylePerMode.insert": "line",
     "vim.cursorStylePerMode.normal": "block",
@@ -24,7 +23,6 @@
     "vim.foldfix": true,
     "vim.highlightedyank.enable": true,
     "vim.matchpairs": "(:),{:},[:],<:>",
-    "vim.statusBarColorControl": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         // Find redux
         {
@@ -63,11 +61,57 @@
         {
             "before": ["<leader>", "c", "l"],
             "commands": ["editor.action.commentLine"]
-        }
+        },
+        // Remap half-page jumps
+        {
+            "before": ["<C-u>"],
+            "after": ["<C-u>", "z", "z"]
+        },
+        {
+            "before": ["<C-d>"],
+            "after": ["<C-d>", "z", "z"]
+        },
+        // Remap search jumps
+        {
+            "before": ["n"],
+            "after": ["n", "z", "z", "z", "v"]
+        },
+        {
+            "before": ["N"],
+            "after": ["N", "z", "z", "z", "v"]
+        },
+        // Differentiate system and vim buffers
+        {
+            "before": ["<leader>", "y"],
+            "after": ["\"_y"]
+        },
+        {
+            "before": ["<leader>", "Y"],
+            "after": ["\"_Y"]
+        },
+        {
+            "before": ["<leader>", "d"],
+            "after": ["\"_d"]
+        },
     ],
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#5f00af",
-        "statusBar.noFolderBackground": "#5f00af",
-        "statusBar.debuggingBackground": "#5f00af"
-    },
+    "vim.visualModeKeyBindings": [
+        // Move line in visual mode
+        {
+            "before": ["J"],
+            "commands": ["editor.action.moveLinesUpAction"]
+        },
+        {
+            "before": ["K"],
+            "commands": ["editor.action.moveLinesDownAction"]
+        },
+        // Differentiate system and vim buffers
+        {
+            "before": ["<leader>", "y"],
+            "after": ["\"_y"]
+        },
+        {
+            "before": ["<leader>", "d"],
+            "after": ["\"_d"]
+        },
+    ],
 }
