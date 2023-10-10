@@ -1,0 +1,36 @@
+disabled: []
+enabled:
+  - id: agutierrezr.emmet-keybindings
+    uuid: 2d0e4a23-a2d2-4725-a7c5-eb2814a512ed
+  - id: albert.TabOut
+    uuid: 4ef6c2d5-de36-45a1-9015-18c1d4a3a25e
+  - id: alefragnani.Bookmarks
+    uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
+  - id: astro-build.astro-vscode
+    uuid: 1fbbc8b0-7432-4b7e-8774-3336151da2f3
+  - id: bradlc.vscode-tailwindcss
+    uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
+  - id: firefox-devtools.vscode-firefox-debug
+    uuid: c5f4d87f-a524-462c-ac01-923eb19cf3e9
+  - id: James-Yu.latex-workshop
+    uuid: 61d03280-3919-4dd1-bce1-178ca21fdeaf
+  - id: jeff-hykin.polacode-2019
+    uuid: 389cd4a7-a68b-4cc5-8451-29cc7674ef6d
+  - id: ms-python.python
+    uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: ms-python.vscode-pylance
+    uuid: 364d2426-116a-433a-a5d8-a5098dc3afbd
+  - id: oderwat.indent-rainbow
+    uuid: eaa2127d-cb69-4ab9-8505-a60c9ee5f28b
+  - id: tal7aouy.icons
+    uuid: dcd805cf-7bf1-458e-8739-26a6077c784f
+  - id: vscodevim.vim
+    uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
+  - id: wangweixuan.yithemes
+    uuid: 141bf57c-6ea1-4f18-9fdb-40a422babe70
+  - id: zhuangtongfa.material-theme
+    uuid: 26a529c9-2654-4b95-a63f-02f6a52429e6
+  - id: zokugun.cron-tasks
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

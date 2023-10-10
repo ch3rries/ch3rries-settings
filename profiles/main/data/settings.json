@@ -1,0 +1,48 @@
+{
+    "editor.fontSize": 18,
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "workbench.colorTheme": "Yi Dark",
+    "editor.defaultFormatter": "astro-build.astro-vscode",
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 1,
+    "editor.fontLigatures": true,
+    "editor.fontVariations": true,
+    "workbench.iconTheme": "icons",
+    "workbench.tree.indent": 16,
+    "telemetry.telemetryLevel": "off",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "vim.useSystemClipboard": true,
+    "vim.leader": "space",
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block-outline",
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.easymotion": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["f"],
+            "after": ["<leader>","<leader>","f"]
+        },
+        {
+            "before": ["F"],
+            "after": ["<leader>","<leader>","F"]
+        },
+        {
+            "before": ["<leader>", "p", "t"],
+            "commands": ["workbench.action.terminal.new"]
+        },
+        {
+            "before": ["<leader>", "p", "b"],
+            "commands": ["workbench.action.tasks.build"]
+        },
+        {
+            "before": ["<leader>", "p", "w"],
+            "commands": ["workbench.action.closeActiveEditor"]
+        },
+        {
+            "before": ["<leader>", "p", "r"],
+            "commands": ["workbench.action.reopenClosedEditor"]
+        },
+    ],
+}
