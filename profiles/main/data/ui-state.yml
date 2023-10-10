@@ -107,8 +107,9 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"id\":\"edit-sessions-view-icon\"},\"name\":\"Cloud
   Changes\",\"isBuiltin\":true,\"views\":[{\"when\":\"editSessionsShowView\"}]}\
   ]"
+workbench.activity.showAccounts: "false"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["css",true],["javascript",true],["html",true],["python",true],["plaintext",true],["jsonc",true],["markdown",true],["astro",true],["yaml",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["css",true],["javascript",true],["html",true],["python",true],["plaintext",true],["markdown",true],["astro",true],["yaml",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center

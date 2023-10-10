@@ -12,6 +12,8 @@
     "telemetry.telemetryLevel": "off",
     "editor.cursorBlinking": "expand",
     "editor.cursorSmoothCaretAnimation": "on",
+
+    // Vim Keybinds
     "vim.useSystemClipboard": true,
     "vim.leader": "space",
     "vim.cursorStylePerMode.insert": "line",
@@ -19,7 +21,12 @@
     "vim.cursorStylePerMode.replace": "block-outline",
     "vim.cursorStylePerMode.visual": "block",
     "vim.easymotion": true,
+    "vim.foldfix": true,
+    "vim.highlightedyank.enable": true,
+    "vim.matchpairs": "(:),{:},[:],<:>",
+    "vim.statusBarColorControl": true,
     "vim.normalModeKeyBindingsNonRecursive": [
+        // Find redux
         {
             "before": ["f"],
             "after": ["<leader>","<leader>","f"]
@@ -28,21 +35,39 @@
             "before": ["F"],
             "after": ["<leader>","<leader>","F"]
         },
+        // Workbench (e)
         {
-            "before": ["<leader>", "p", "t"],
+            "before": ["<leader>", "e", "t"],
             "commands": ["workbench.action.terminal.new"]
         },
         {
-            "before": ["<leader>", "p", "b"],
+            "before": ["<leader>", "e", "b"],
             "commands": ["workbench.action.tasks.build"]
         },
         {
-            "before": ["<leader>", "p", "w"],
+            "before": ["<leader>", "e", "c"],
             "commands": ["workbench.action.closeActiveEditor"]
         },
         {
-            "before": ["<leader>", "p", "r"],
+            "before": ["<leader>", "e", "r"],
             "commands": ["workbench.action.reopenClosedEditor"]
         },
+        {
+            "before": ["<leader>", "e", "p"],
+            "commands": ["workbench.action.showCommands"]
+        },
+        {
+            "before": ["<leader>", "e", "f"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+        {
+            "before": ["<leader>", "c", "l"],
+            "commands": ["editor.action.commentLine"]
+        }
     ],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#5f00af",
+        "statusBar.noFolderBackground": "#5f00af",
+        "statusBar.debuggingBackground": "#5f00af"
+    },
 }
