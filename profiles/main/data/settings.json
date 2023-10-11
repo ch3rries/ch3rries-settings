@@ -62,6 +62,19 @@
             "before": ["<leader>", "c", "l"],
             "commands": ["editor.action.commentLine"]
         },
+        // Bookmark features
+        {
+            "before": ["<leader>", "m", "b"],
+            "commands": ["bookmarks.toggle"]
+        },
+        {
+            "before": ["<leader>", "b", "n"],
+            "commands": ["bookmarks.jumpToNext"]
+        },
+        {
+            "before": ["<leader>", "b", "N"],
+            "commands": ["bookmarks.jumpToPrevious"]
+        },
         // Remap half-page jumps
         {
             "before": ["<C-u>"],

@@ -30,7 +30,5 @@ enabled:
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: wangweixuan.yithemes
     uuid: 141bf57c-6ea1-4f18-9fdb-40a422babe70
-  - id: zhuangtongfa.material-theme
-    uuid: 26a529c9-2654-4b95-a63f-02f6a52429e6
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
