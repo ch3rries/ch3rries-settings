@@ -4,7 +4,6 @@
     "workbench.colorTheme": "Yi Dark",
     "editor.defaultFormatter": "astro-build.astro-vscode",
     "editor.formatOnSave": true,
-    "window.zoomLevel": 1,
     "editor.fontLigatures": true,
     "editor.fontVariations": true,
     "workbench.iconTheme": "icons",
@@ -127,4 +126,5 @@
             "after": ["\"_d"]
         },
     ],
+    "window.zoomLevel": 1,
 }
