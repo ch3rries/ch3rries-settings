@@ -109,7 +109,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   ]"
 workbench.activity.showAccounts: "false"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["css",true],["javascript",true],["astro",true],["markdown",true],["yaml",true],["jsonc",true],["xml",true],["python",true],["csharp",true],["plaintext",true],["html",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["css",true],["javascript",true],["astro",true],["markdown",true],["yaml",true],["xml",true],["python",true],["csharp",true],["plaintext",true],["jsonc",true],["html",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"solutionExplorer","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
