@@ -1,7 +1,6 @@
 {
     "editor.fontSize": 18,
     "editor.fontFamily": "JetBrainsMono Nerd Font",
-    "workbench.colorTheme": "Yi Dark",
     "editor.defaultFormatter": "astro-build.astro-vscode",
     "editor.formatOnSave": true,
     "editor.fontLigatures": true,
@@ -109,11 +108,11 @@
     "vim.visualModeKeyBindings": [
         // Move line in visual mode
         {
-            "before": ["J"],
+            "before": ["K"],
             "commands": ["editor.action.moveLinesUpAction"]
         },
         {
-            "before": ["K"],
+            "before": ["J"],
             "commands": ["editor.action.moveLinesDownAction"]
         },
         // Differentiate system and vim buffers
@@ -131,4 +130,5 @@
     "discord.detailsDebugging": "Squashing Bugs In {file_name}",
     "discord.detailsEditing": "Editing {file_name} ({file_size})",
     "discord.largeImage": "{LANG}",
+    "workbench.colorTheme": "Yi Dark",
 }
